@@ -16,7 +16,7 @@ export class CreateQuestionDto {
 
   @IsString()
   @IsNotEmpty()
-  @MinLength(20)
+  @MinLength(1)
   @MaxLength(5000)
   content: string;
 

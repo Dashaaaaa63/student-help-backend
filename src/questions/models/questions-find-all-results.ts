@@ -1,4 +1,4 @@
-import { PopulatedQuestionDocument } from "../question.schema";
+import { PopulatedQuestionDocument } from '../question.schema';
 
 export interface QuestionsFindAllResults {
   items: PopulatedQuestionDocument[];

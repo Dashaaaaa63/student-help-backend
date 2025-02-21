@@ -16,8 +16,8 @@ export class FindAllQuestionsDto {
 
   @IsOptional()
   @IsNumber()
-  @Transform(({ value }) => parseInt(value) || 10)
-  limit: number = 10;
+  @Transform(({ value }) => parseInt(value) || 12)
+  limit: number = 12;
 
   @IsOptional()
   @IsString()

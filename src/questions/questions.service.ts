@@ -121,6 +121,7 @@ export class QuestionsService {
     return {
       id: populatedQuestion._id.toString(),
       content: populatedQuestion.content,
+      category: populatedQuestion.category,
       title: populatedQuestion.title,
       bestAnswerId: populatedQuestion.bestAnswerId
         ? populatedQuestion.bestAnswerId.toString()
